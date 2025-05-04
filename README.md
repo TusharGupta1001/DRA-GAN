@@ -48,15 +48,4 @@ DRAGAN helps this process stay stable and improves the **quality of generated fa
 | 20    | 🟢 Almost realistic faces |
 | 24    | ✅ Pretty convincing now! |
 
-Samples are saved in the `/samples` folder.
-
 ---
-
-## 💻 Try It Yourself!
-
-### 🔁 Quick Start
-
-```bash
-git clone https://github.com/your-username/fake-vision-dragan.git
-cd fake-vision-dragan
-pip install -r requirements.txt
