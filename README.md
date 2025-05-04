@@ -67,7 +67,7 @@ DRAGAN helps this process stay stable and improves the **quality of generated fa
 
 ---
 
-# Progress Over Time
+## Progress Over Time
 | Epoch | Observations                                        |
 |-------|-----------------------------------------------------|
 | 1     | Random noise, no discernible facial features        |
@@ -79,21 +79,21 @@ DRAGAN helps this process stay stable and improves the **quality of generated fa
 
 ---
 
-# Quantitative Evaluation
+## Quantitative Evaluation
 - **FID at Epoch 1**: ~250 (high, indicating poor similarity to real images)
 - **FID at Epoch 10**: ~120 (improving as facial features emerge
 - **FID at Epoch 24**: ~45 (lower, indicating better quality and realism)
 
 ---
 
-# Benefits of DRAGAN
+## Benefits of DRAGAN
 - **Stability**: The gradient penalty mitigates vanishing gradients in the Discriminator, ensuring consistent training dynamics.
 - **Diversity**: By constraining the Discriminator’s gradients, DRAGAN reduces mode collapse, leading to more varied facial features (e.g., different hair colors, facial expressions).
 - **Convergence**: Compared to vanilla GANs, DRAGAN converges faster, as seen in the rapid quality improvement between epochs 5 and 15.
 
 ---
 
-# Practical Applications
+## Practical Applications
 - **Data Augmentation**: Synthetic faces can augment datasets for face recognition models, especially in underrepresented demographics.
 - **Deepfake Detection**: Generated images can be used to train models to detect manipulated media, addressing ethical concerns around deepfakes.
 - **Creative Arts**: High-quality synthetic faces can be used in animation, gaming, or virtual avatars, reducing the need for manual design.
