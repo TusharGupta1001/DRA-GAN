@@ -17,6 +17,13 @@ DRAGAN helps this process stay stable and improves the **quality of generated fa
 
 ---
 
+## Before and After Training
+
+| Before Training | After Training |
+| ---------------- | -------------- |
+| ![Before Training](images/before_training.jpg) | ![After Training](images/after_training.jpg) |
+
+
 ## 🔧 How I Built It
 
 ### Step 1: 🖼️ Dataset
