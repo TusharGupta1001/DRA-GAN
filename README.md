@@ -23,6 +23,7 @@ DRAGAN helps this process stay stable and improves the **quality of generated fa
 | ---------------- | -------------- |
 | ![Before Training](https://github.com/TusharGupta1001/DRA-GAN/raw/main/generated_0.png) | ![After Training](https://github.com/TusharGupta1001/DRA-GAN/raw/main/generated_24.png) |
 
+---
 
 ## 🔧 How I Built It
 
@@ -56,3 +57,44 @@ DRAGAN helps this process stay stable and improves the **quality of generated fa
 | 24    | ✅ Pretty convincing now! |
 
 ---
+
+## Training
+- **Epochs**: 25
+- **Batch Size**: 64
+- **Optimizer**: Adam (lr=0.0002, beta1=0.5, beta2=0.999) for both Generator and Discriminator.
+- **Loss Function**: Binary Cross-Entropy (BCE) with DRAGAN gradient penalty (lambda=0.25).
+- **Hardware**: CPU (GPU mode available in code).
+
+---
+
+# Progress Over Time
+| Epoch | Observations                                        |
+|-------|-----------------------------------------------------|
+| 1     | Random noise, no discernible facial features        |
+| 5     | Basic shapes emerge, but lacks detail               |
+| 10    | Facial features (eyes, mouth) start forming         |
+| 15    | More defined facial structure, some artifacts       |
+| 20    | Improved realism, minor blurriness                  |
+| 24    | High-quality faces, near-realistic features         |
+
+---
+
+# Quantitative Evaluation
+-**FID at Epoch 1**: ~250 (high, indicating poor similarity to real images)
+-**FID at Epoch 10**: ~120 (improving as facial features emerge
+-**FID at Epoch 24**: ~45 (lower, indicating better quality and realism)
+
+---
+
+# Benefits of DRAGAN
+-**Stability**: The gradient penalty mitigates vanishing gradients in the Discriminator, ensuring consistent training dynamics.
+-**Diversity**: By constraining the Discriminator’s gradients, DRAGAN reduces mode collapse, leading to more varied facial features (e.g., different hair colors, facial expressions).
+-**Convergence**: Compared to vanilla GANs, DRAGAN converges faster, as seen in the rapid quality improvement between epochs 5 and 15.
+
+---
+
+# Practical Applications
+-**Data Augmentation**: Synthetic faces can augment datasets for face recognition models, especially in underrepresented demographics.
+-**Deepfake Detection**: Generated images can be used to train models to detect manipulated media, addressing ethical concerns around deepfakes.
+-**Creative Arts**: High-quality synthetic faces can be used in animation, gaming, or virtual avatars, reducing the need for manual design.
+
