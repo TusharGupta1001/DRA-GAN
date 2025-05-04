@@ -17,9 +17,9 @@ DRAGAN helps this process stay stable and improves the **quality of generated fa
 
 ---
 
-## Before and After Training
+## Improvement
 
-| Before Training | After Training |
+| Epoch 1 | Epoch 24 |
 | ---------------- | -------------- |
 | ![Before Training](https://github.com/TusharGupta1001/DRA-GAN/raw/main/generated_0.png) | ![After Training](https://github.com/TusharGupta1001/DRA-GAN/raw/main/generated_24.png) |
 
