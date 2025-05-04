@@ -21,7 +21,7 @@ DRAGAN helps this process stay stable and improves the **quality of generated fa
 
 | Before Training | After Training |
 | ---------------- | -------------- |
-| ![Before Training]([images/before_training.jpg](https://github.com/TusharGupta1001/DRA-GAN/blob/main/generated_0.png)) | ![After Training](images/after_training.jpg) |
+| ![Before Training]([https://github.com/TusharGupta1001/DRA-GAN/blob/main/generated_0.png]) | ![After Training](images/after_training.jpg) |
 
 
 ## 🔧 How I Built It
